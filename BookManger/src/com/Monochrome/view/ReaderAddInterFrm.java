@@ -192,13 +192,12 @@ public class ReaderAddInterFrm extends JInternalFrame {
 	        	con=dbUtil.getCon();
 	        	Reader reader = new Reader(readerId, readerName, sex, college, enrollmentDate, phoneNumber, balance, recordDate);
 	        	if(readerDao.add(con, reader)) {
-	        		JOptionPane.showMessageDialog(null,"图书添加成功");
+	        		JOptionPane.showMessageDialog(null,"读者添加成功");
 	        	}else {
-	        		JOptionPane.showMessageDialog(null,"图书添加失败");
+	        		JOptionPane.showMessageDialog(null,"读者添加失败");
 	        	}
 	        }catch(Exception e){
 	        	e.printStackTrace();  
-	        	JOptionPane.showMessageDialog(null,"图书添加失败");
 	        }finally{
 	        	try{
 	        	dbUtil.closeCon(con);

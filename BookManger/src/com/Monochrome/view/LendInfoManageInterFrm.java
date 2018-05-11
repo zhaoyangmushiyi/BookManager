@@ -260,12 +260,17 @@ public class LendInfoManageInterFrm extends JInternalFrame {
 		int n = JOptionPane.showConfirmDialog(null, "确定要删除这条记录么");
 		if (n == 0) {
 			Connection con = null;
-			try {
+			try {				
+				
 				con = dbUtil.getCon();
+				Book book = new BookDao().get(con, new LendInfoDao().get(con, id).getBookId());
+
+				if (book.getBookState().equals("是")) {
+					JOptionPane.showMessageDialog(null, "检查到图书未归还，借阅信息不能删除");
+					return;
+				}
 				if (lendInfoDao.delete(con, id)) {
 					JOptionPane.showMessageDialog(null, "删除成功");
-					Book book = new BookDao().get(con, new LendInfoDao().get(con, id).getBookId());
-					book.setBookState("否");
 					this.fillTable();
 				} else {
 					JOptionPane.showMessageDialog(null, "删除失败");

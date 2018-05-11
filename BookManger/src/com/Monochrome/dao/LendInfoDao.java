@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -42,11 +43,11 @@ public class LendInfoDao implements Dao<LendInfo> {
 	}
 	
 	public LendInfo get(Connection con, long lendId) {
-		String sql = "select * from t_lendInfo where lendId = " + lendId;
+		String sql = "select * from t_lendInfo where lendID = " + lendId;
 		LendInfo lendInfo = null;
 		try {
-			PreparedStatement ps = con.prepareStatement(sql);
-			ResultSet rs = ps.executeQuery();
+			Statement s = con.createStatement();
+			ResultSet rs = s.executeQuery(sql);
 			if(rs.next()) {
 				lendInfo = new LendInfo();
 				long readerId = rs.getLong("readerId");
