@@ -1,5 +1,5 @@
 # Host: 127.0.0.1  (Version: 5.5.15)
-# Date: 2018-05-04 23:50:39
+# Date: 2018-05-11 19:01:55
 # Generator: MySQL-Front 5.3  (Build 4.269)
 
 /*!40101 SET NAMES gb2312 */;
@@ -27,7 +27,7 @@ CREATE TABLE `t_book` (
 # Data for table "t_book"
 #
 
-INSERT INTO `t_book` VALUES (1,'wdfs','·ñ','','sdf','sdfs','sdf','2016-12-12',155,'2018-04-29'),(10001,'Êý¾Ý¿â¹ÜÀí','·ñ','ÍõÉº','ÍõÉº','¸ßµÈ½ÌÓý³ö°æÉç','¼ÆËã»ú','2010-01-11',35.5,'2018-04-29'),(10002,'Èí¼þ²âÊÔ','·ñ','','ºØÆ½','»úÐµ¹¤Òµ³ö°æÉç','¼ÆËã»ú','2010-01-11',24.6,'2018-04-29'),(10003,'C++³ÌÐòÉè¼Æ','·ñ','','Ì·ºÆÇ¿','Çå»ª´óÑ§³ö°æÉç','¼ÆËã»ú','2010-01-11',30.5,'2018-04-29'),(10004,'ºìÂ¥ÃÎ','·ñ','','²ÜÑ©ÇÛ','ÈËÃñÎÄÑ§³ö°æÉç','ÎÄÑ§','2010-01-11',45.5,'2018-04-29'),(10005,'Î÷ÓÎ¼Ç','·ñ','','Îâ³Ð¶÷','ÈËÃñÎÄÑ§³ö°æÉç','ÎÄÑ§','2010-01-11',21.5,'2018-04-29'),(10006,'ºìÓëºÚ','·ñ','','Ë¾ÌÀ´ï','ÈËÃñÎÄÑ§³ö°æÉç','ÎÄÑ§','2010-01-11',66.5,'2018-04-29'),(10007,'¸ßµÈÊýÑ§','ÊÇ','','ÀîÒã','Çå»ª´óÑ§³ö°æÉç','ÊýÑ§','2010-01-11',38,'2018-04-29'),(10008,'ÓÐ»ú»¯Ñ§','·ñ','','ÕÅÏè','¸ßµÈ½ÌÓý³ö°æÉç','»¯Ñ§','2010-01-11',37,'2018-04-29'),(10009,'´óÑ§Ó¢Óï','·ñ','','ÍõÁÕ','¸ßµÈ½ÌÓý³ö°æÉç','ÍâÓï','2010-01-11',12.5,'2018-04-29'),(10010,'Ó¢Óï½Ì³Ì','·ñ','','ÍõÁÕ','¸ßµÈ½ÌÓý³ö°æÉç','ÍâÓï','2010-01-11',33.5,'2018-04-29'),(10011,'ÐÂÊÓÒ°´óÑ§Ó¢Óï','ÊÇ','','ÍõÁÕ','¸ßµÈ½ÌÓý³ö°æÉç','ÍâÓï','2010-01-11',25.5,'2018-04-29'),(10012,'ÐÂÊÓÒ°´óÑ§Ó¢Óï','·ñ','','Ö£º£ÌÄ','¸ßµÈ½ÌÓý³ö°æÉç','ÍâÓï','2010-01-12',15.5,'2018-04-29'),(10013,'Èý¹úÑÝÒå','·ñ','','ÂÞ¹áÖÐ','ÈËÃñÎÄÑ§³ö°æÉç','ÎÄÑ§','2010-01-11',16.5,'2018-04-29'),(12341,'sdfs','·ñ','ÎÞ','sdfsdf','fasdfs','dfssdf','2008-12-12',42,'2018-04-29');
+INSERT INTO `t_book` VALUES (10001,'æ•°æ®åº“ç®¡ç†','å¦','çŽ‹çŠ','çŽ‹çŠ','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','è®¡ç®—æœº','2010-01-11',35.5,'2018-04-29'),(10002,'è½¯ä»¶æµ‹è¯•','æ˜¯','','è´ºå¹³','æœºæ¢°å·¥ä¸šå‡ºç‰ˆç¤¾','è®¡ç®—æœº','2010-01-11',24.6,'2018-04-29'),(10003,'C++ç¨‹åºè®¾è®¡','å¦','','è°­æµ©å¼º','æ¸…åŽå¤§å­¦å‡ºç‰ˆç¤¾','è®¡ç®—æœº','2010-01-11',30.5,'2018-04-29'),(10004,'çº¢æ¥¼æ¢¦','å¦','','æ›¹é›ªèŠ¹','äººæ°‘æ–‡å­¦å‡ºç‰ˆç¤¾','æ–‡å­¦','2010-01-11',45.5,'2018-04-29'),(10005,'è¥¿æ¸¸è®°','å¦','','å´æ‰¿æ©','äººæ°‘æ–‡å­¦å‡ºç‰ˆç¤¾','æ–‡å­¦','2010-01-11',21.5,'2018-04-29'),(10006,'çº¢ä¸Žé»‘','å¦','','å¸æ±¤è¾¾','äººæ°‘æ–‡å­¦å‡ºç‰ˆç¤¾','æ–‡å­¦','2010-01-11',66.5,'2018-04-29'),(10007,'é«˜ç­‰æ•°å­¦','å¦','','æŽæ¯…','æ¸…åŽå¤§å­¦å‡ºç‰ˆç¤¾','æ•°å­¦','2010-01-11',38,'2018-04-29'),(10008,'æœ‰æœºåŒ–å­¦','å¦','','å¼ ç¿”','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','åŒ–å­¦','2010-01-11',37,'2018-04-29'),(10009,'å¤§å­¦è‹±è¯­','å¦','','çŽ‹ç³','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','å¤–è¯­','2010-01-11',12.5,'2018-04-29'),(10010,'è‹±è¯­æ•™ç¨‹','å¦','','çŽ‹ç³','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','å¤–è¯­','2010-01-11',33.5,'2018-04-29'),(10011,'æ–°è§†é‡Žå¤§å­¦è‹±è¯­','å¦','','çŽ‹ç³','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','å¤–è¯­','2010-01-11',25.5,'2018-04-29'),(10012,'æ–°è§†é‡Žå¤§å­¦è‹±è¯­','å¦','','éƒ‘æµ·æ£ ','é«˜ç­‰æ•™è‚²å‡ºç‰ˆç¤¾','å¤–è¯­','2010-01-12',15.5,'2018-04-29'),(10013,'ä¸‰å›½æ¼”ä¹‰','å¦','','ç½—è´¯ä¸­','äººæ°‘æ–‡å­¦å‡ºç‰ˆç¤¾','æ–‡å­¦','2010-01-11',16.5,'2018-04-29');
 
 #
 # Structure for table "t_manager"
@@ -69,7 +69,7 @@ CREATE TABLE `t_reader` (
 # Data for table "t_reader"
 #
 
-INSERT INTO `t_reader` VALUES (4234,'1234','456456','453','2008-10-10','456456',564,'2018-04-29'),(423432,'1234123','456456213','45312346','2008-10-10','456456',564,'2018-04-29');
+INSERT INTO `t_reader` VALUES (4234,'å¼ ä¸‰','ç”·','è®¡ç®—æœºæŠ€æœ¯','2008-10-10','123456789',564,'2018-04-29'),(4235,'æŽä¸½','å¥³','ç»æµŽç®¡ç†','2017-09-01','12345678912',50,'2018-05-11');
 
 #
 # Structure for table "t_lendinfo"
@@ -88,15 +88,15 @@ CREATE TABLE `t_lendinfo` (
   PRIMARY KEY (`lendID`),
   KEY `fk_lendinfo_reader` (`readerId`),
   KEY `fk_lendinfo_book` (`bookId`),
-  CONSTRAINT `fk_lendinfo_reader` FOREIGN KEY (`readerId`) REFERENCES `t_reader` (`readerId`),
-  CONSTRAINT `fk_lendinfo_book` FOREIGN KEY (`bookId`) REFERENCES `t_book` (`bookId`)
+  CONSTRAINT `fk_lendinfo_book` FOREIGN KEY (`bookId`) REFERENCES `t_book` (`bookId`),
+  CONSTRAINT `fk_lendinfo_reader` FOREIGN KEY (`readerId`) REFERENCES `t_reader` (`readerId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #
 # Data for table "t_lendinfo"
 #
 
-INSERT INTO `t_lendinfo` VALUES (234,4234,'1234',10007,'¸ßµÈÊýÑ§','2008-08-08','2008-08-10','·ñ'),(549848,423432,'1234123',10005,'Î÷ÓÎ¼Ç','2018-05-04','2018-05-12','ÊÇ');
+INSERT INTO `t_lendinfo` VALUES (1001,4235,'æŽä¸½',10002,'è½¯ä»¶æµ‹è¯•','2018-05-11','2018-05-15','å¦');
 
 #
 # Structure for table "t_ticketinfo"
@@ -113,8 +113,8 @@ CREATE TABLE `t_ticketinfo` (
   PRIMARY KEY (`ticketID`),
   KEY `fk_ticketInfo_reader` (`readerId`),
   KEY `fk_ticketInfo_lendinfo` (`lendID`),
-  CONSTRAINT `fk_ticketInfo_reader` FOREIGN KEY (`readerId`) REFERENCES `t_reader` (`readerId`),
-  CONSTRAINT `fk_ticketInfo_lendinfo` FOREIGN KEY (`lendID`) REFERENCES `t_lendinfo` (`lendID`)
+  CONSTRAINT `fk_ticketInfo_lendinfo` FOREIGN KEY (`lendID`) REFERENCES `t_lendinfo` (`lendID`),
+  CONSTRAINT `fk_ticketInfo_reader` FOREIGN KEY (`readerId`) REFERENCES `t_reader` (`readerId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 #
